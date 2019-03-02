@@ -1,0 +1,239 @@
+/* Heading */
+.container {
+	width: 900px;
+	height: 200px;
+	border-radius: 20px;
+	margin: 20px auto 0 auto;
+	filter: drop-shadow(0 0 10px rgba(0,0,0,1));
+	background-image: radial-gradient(circle, white,#EBEDEF);
+	position: relative;
+	text-align: center;
+}
+
+.header {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 300px;
+}
+
+h1 {
+	font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+	text-align: center;
+	filter: drop-shadow(2px 2px 4px rgba(0,0,0,.3));
+}
+
+.logo ul {
+	margin-left: 65px;
+}
+.logo ul li {
+	margin: 70px 10px 10px 20px;
+	float: left;
+	filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+}
+
+.logo ul li:nth-child(odd) img{
+	border-radius: 50%;
+}
+/* Body */
+.containerBody {
+	width: 900px;
+	height: 500px;
+	margin: 20px auto 0 auto;
+	position: relative;
+	background-color: white;
+	border-radius: 20px;
+	filter: drop-shadow(0 0 10px rgba(0,0,0,.5));
+}
+
+.navbar {
+	width: 900px;
+	height: 40px;
+	text-align: center;
+	background-color: #555555;
+	box-sizing: border-box;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	filter: drop-shadow(0 3px 2px rgba(0,0,0,.5));
+}
+
+.navbar ul li{
+	margin-top: 7px;
+	display: inline-block;
+}
+
+.navbar ul li a {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 25px;
+	margin-left: -5px;
+	padding: 7px 20px 8px 20px;
+	text-decoration: none;
+	background-color: #555555;
+	color: white;
+	transition: .3s;
+}
+
+#Now {
+	background-color: #4CAF50;
+}
+
+.navbar ul li a:hover,
+#Now:hover {
+	background-color: black;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-indent: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* List Bar */
+.list ol {
+	margin-left: 200px;
+	font-size: 20px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.list ul{
+	margin-bottom: 20px;
+	margin-left: 50px;
+	list-style: circle; 
+}
+
+.listBarC {
+	margin: 5px 0 0 35px;
+	width: 400px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.animationC {
+	animation-name: barC;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.listBarCPP {
+	margin: 5px 0 0 35px;
+	width: 400px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.animationCPP {
+	animation-name: barCPP;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.listBarPython {
+	margin: 5px 0 0 35px;
+	width: 400px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.animationPython {
+	animation-name: barPython;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.listBarJava {
+	margin: 5px 0 0 35px;
+	width: 400px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.animationJava {
+	animation-name: barJava;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.listBarJavascript {
+	margin: 5px 0 0 35px;
+	width: 400px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.animationJavascript {
+	animation-name: barJavascript;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+/* Animasi*/
+@keyframes barC {
+	0% {
+		width: 0;
+		height: 15px;
+	}
+	100% {
+		width: 270px;
+		height: 15px;
+		background-color: black;
+	}
+}
+
+@keyframes barCPP {
+
+	0% {
+		width: 0;
+		height: 15px;
+	}
+	100% {
+		width: 300px;
+		height: 15px;
+		background-color: black;
+	}
+}
+
+@keyframes barPython {
+	0% {
+		width: 0;
+		height: 15px;
+	}
+	100% {
+		width: 200px;
+		height: 15px;
+		background-color: black;
+	}
+}
+
+@keyframes barJava {
+	0% {
+		width: 0;
+		height: 15px;
+	}
+	100% {
+		width: 100px;
+		height: 15px;
+		background-color: black;
+	}
+}
+
+@keyframes barJavascript {
+	0% {
+		width: 0;
+		height: 15px;
+	}
+	100% {
+		width: 100px;
+		height: 15px;
+		background-color: black;
+	}
+}

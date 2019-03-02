@@ -1,0 +1,107 @@
+body {
+	background-color: grey;
+}
+
+.container {
+	width: 900px;
+	height: 300px;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+}
+
+.container1 {
+	width: 820px;
+	height: 140px;
+	position: absolute;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 100px;
+	animation-name: animasi;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	box-shadow : -10px -10px 10px rgba(0,0,0,.5);
+}
+
+.container1 ul li {
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+.container1 ul li:first-child {
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+.containerPembatas {
+	width: 900px;
+	height: 10px;
+	top: 140px;
+	background-color: black;
+	border-radius: 20px;
+	position: absolute;
+}
+
+.container2 {
+	margin-left: 100px;
+	width: 820px;
+	height: 140px;
+	bottom: 10px;
+	background-color: white;
+	position: absolute;
+	box-sizing: border-box;
+	border-radius: 100px;
+	animation-name: animasi;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
+
+.container2 ul li {
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+.container2 ul li:first-child {
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+img {
+	filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+	border-radius: 50%;
+	animation-name: fade;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	z-index: 99;
+	transition: .3s;
+}
+
+a:hover img {
+	transform: scale(1.5);
+}
+
+@keyframes animasi{
+	0% {
+		width: 0;
+		height: 140px;
+	}
+	100% {
+		width: 820px;
+		height: 140px;
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
