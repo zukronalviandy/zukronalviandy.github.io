@@ -3,3 +3,6 @@
 
 0.5.4
 -> Update pada halaman project, pada bagian HTML ditambahkan link menuju project
+
+0.5.5
+-> Penambahan halaman laporan
