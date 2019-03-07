@@ -1,0 +1,208 @@
+/* Style container header*/
+.containerHeader {
+	width: 900px;
+	height: 300px;
+	margin: auto;
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	border-bottom: 5px solid black;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,.5));
+}
+
+.containerHeader h1 {
+	text-align: center;
+	line-height: 300px;
+	color: white;
+	font-size: 100px;
+	font-style: italic;
+    font-family: 'Cabin', sans-serif;
+    filter: drop-shadow(1px 1px 1px rgba(255,255,255,1));
+
+}
+/* Style navbar*/
+.navbar {
+	margin: auto;
+	width: 900px;
+	height: 40px;
+	box-sizing: border-box;
+	background-image: linear-gradient(270deg, black ,grey );
+	filter: drop-shadow(0 0 2px rgba(0,0,0,.5));
+}
+
+.navbar ul li:first-child {
+	margin-left: 30px;
+}
+
+.navbar ul li {
+	padding: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.navbar ul li:hover {
+	background-color: black;
+	padding-bottom: 15px;
+}
+
+.navbar ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Style biodata*/
+.biodata {
+	right: 0;
+	width: 200px;
+	height: 300px;
+	margin-top: 20px;
+	background-color: #DBDBDB;
+	position: absolute;
+	box-sizing: border-box;
+	border-radius: 20px;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,1));
+}
+
+.logo {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	background-image: url(../img/zukron.jpg);
+	filter: drop-shadow(2px 2px 2px rgba(0,0,0,1));
+}
+
+.listSosmed {
+	width: 200px;
+	height: 60px;
+	margin-top: 30px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	background-color: grey;
+	border-radius: 30px;
+	filter: drop-shadow(0 2px 2px rgba(0,0,0,.6));
+}
+
+.listSosmed ul li {
+	margin-top: 5px;
+	display: inline;
+}
+
+.listSosmed ul li img{
+	margin-top: 5px;
+}
+
+.facebook img {
+	border-radius: 20px;
+}
+
+.biodata p {
+	margin-top: -90px;
+	margin-left: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	filter: drop-shadow(2px 2px 2px rgba(0,0,0,.5));
+}
+
+/* Style container body*/
+.containerBody {
+	margin: auto;
+	width: 900px;
+	height: 1780px;
+	background-color: white;
+	position: relative;
+	box-sizing: border-box;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,.5));
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+/* Style Main text*/
+.mainText {
+	width: 670px;
+	height: 320px;
+	position: absolute;
+	padding-left: 20px;
+}
+
+.mainText img {
+	margin-top: -90px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+	text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,.5));
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Style Main text 2*/
+.mainText2 {
+	top: 320px;
+	width: 900px;
+	height: 1500px;
+	position: absolute;
+	padding: 10px 10px 0 10px;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mainText2 p {
+	font-size: 17px;
+	text-indent: 20px;
+	text-align: justify;
+}
+
+.mainText2 table {
+	list-style: circle;
+	margin-left: 20px;
+}
+
+.mainText2 th {
+	font-weight: bold;
+	text-align: left;
+}
+
+.mainText2 tr td {
+	padding-left: 15px;
+}
+
+span {
+	font-weight: bold;
+}
+
+/* Style Laporan Harian*/
+.laporan {
+	top: 1700px;
+	margin-left: 30px;
+	width: 500px;
+	height: 40px;
+	background-color: #DBDBDB;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,.5));
+	position: absolute;
+	border-radius: 20px;
+}
+
+.laporan:hover {
+	transform: scale(1.1);
+	filter: drop-shadow(0 10px 2px rgba(0,0,0,.5));
+}
+
+.laporan h3 {
+	color: black;
+	line-height: 40px;
+	text-align: center;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,.3));
+}

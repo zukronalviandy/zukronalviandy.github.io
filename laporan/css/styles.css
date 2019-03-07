@@ -90,7 +90,7 @@ h2 {
 
 .list ul li {
 	margin: 0 0 10px 150px;
-	width: 300px;
+	width: 400px;
 	height: 30px;
 	filter: drop-shadow(2px 2px 5px rgba(0,0,0,.5));
 	background-color: #EBEDEF;
@@ -119,6 +119,7 @@ h2 {
 }
 
 p {
+    font-family: 'Josefin Sans', sans-serif;
 	margin-left: 50px;
 	opacity: 0;
 }
