@@ -9,3 +9,6 @@
 
 0.5.6
 -> Penambahan halaman instalasi komputer serta laporan 1
+
+0.5.7
+-> Penambahan background pada halaman pengidentifikasian motherboard
