@@ -12,3 +12,6 @@
 
 0.5.7
 -> Penambahan background pada halaman pengidentifikasian motherboard
+
+0.5.8 
+-> Optimalisasi
