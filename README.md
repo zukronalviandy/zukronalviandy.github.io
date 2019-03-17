@@ -15,3 +15,6 @@
 
 0.5.8 
 -> Optimalisasi
+
+0.5.9
+-> Penambahan halaman pengidentifikasian hardware motherboard serta laporan 2

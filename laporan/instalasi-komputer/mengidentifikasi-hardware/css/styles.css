@@ -115,7 +115,7 @@ body {
 .containerBody {
 	margin: auto;
 	width: 900px;
-	height: 1780px;
+	height: 5450px;
 	background-color: white;
 	position: relative;
 	box-sizing: border-box;
@@ -133,7 +133,10 @@ body {
 }
 
 .mainText img {
-	margin-top: -90px;
+	margin: 20px 0 0 130px;
+	border-radius: 5px;
+	filter: drop-shadow(0 0 2px rgba(0,0,0,1));
+	width: 400px;
 }
 
 h2 {
@@ -154,9 +157,9 @@ h3 {
 
 /* Style Main text 2*/
 .mainText2 {
-	top: 320px;
+	top: 380px;
 	width: 900px;
-	height: 1500px;
+	height: 5100px;
 	position: absolute;
 	padding: 10px 10px 0 10px;
 	box-sizing: border-box;
@@ -187,9 +190,25 @@ span {
 	font-weight: bold;
 }
 
+/* Style list dalam table*/
+.gambar img {
+	border-radius: 5px;
+	filter: drop-shadow(0 0 5px rgba(0,0,0,1));
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 400px;
+}
+
+.sumber p {
+	color: grey;
+	margin-left: 280px;
+	font-size: 15px;
+	font-style: italic;
+}
+
 /* Style Laporan Harian*/
 .laporan {
-	top: 1700px;
+	top: 5360px;
 	margin-left: 30px;
 	width: 500px;
 	height: 40px;
