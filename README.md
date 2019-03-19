@@ -18,3 +18,6 @@
 
 0.5.9
 -> Penambahan halaman pengidentifikasian hardware motherboard serta laporan 2
+
+0.6.0
+-> Resize gambar halaman pengidentifikasian hardware motherboard laporan 2
