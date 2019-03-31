@@ -21,3 +21,6 @@
 
 0.6.0
 -> Resize gambar halaman pengidentifikasian hardware motherboard laporan 2
+
+0.6.1
+-> Penambahan halaman install dan uninstall PC laporan 3
