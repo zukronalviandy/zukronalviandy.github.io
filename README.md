@@ -24,3 +24,6 @@
 
 0.6.1
 -> Penambahan halaman install dan uninstall PC laporan 3
+
+0.6.2
+-> Penambahan link menuju Java dan Javascript
