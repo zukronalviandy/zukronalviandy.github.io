@@ -27,3 +27,6 @@
 
 0.6.2
 -> Penambahan link menuju Java dan Javascript
+
+0.6.3
+-> Penambahan laporan 4 dan 7

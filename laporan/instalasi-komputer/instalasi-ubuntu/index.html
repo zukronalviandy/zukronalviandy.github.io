@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Laporan</title>
+	<link rel="stylesheet" type="text/css" href="../../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="containerHeader">
+		<h1>Instalasi Komputer</h1>
+	</div>
+	<div class="navbar">
+		<ul>
+			<li><a href="../../../">Home</a></li>
+			<li><a href="../../../datadiri">Datadiri</a></li>
+			<li><a href="../../../achievement">Achievement</a></li>
+			<li><a href="../../../project">Project</a></li>
+		</ul>
+	</div>
+	<div class="containerBody">
+		<div class="mainText">
+			<h2>Instalasi Ubuntu</h2>
+			<img src="img/Head.svg">
+		</div>
+		<div class="mainText2">
+			<h3>I. Teori Dasar</h3>
+				<p>
+					Ubuntu merupakan salah satu distribusi Linux yang berbasis Debian dan didistribusikan sebagai perangkat lunak bebas.
+				</p>
+					<br>
+				<p>
+					Ubuntu ditawarkan dalam tiga edisi resmi: Ubuntu Desktop untuk komputer pribadi, Ubuntu Server untuk server dan komputasi awan, dan Ubuntu Core untuk "Internet untuk Segala", perangkat kecil dan robot. Versi baru Ubuntu dengan dukungan standar dirilis tujuh bulan sekali, sementara untuk versi dukungan jangka-panjang (LTS) dirilis dua tahun sekali. Rilis terbaru Ubuntu dengan dukungan standar adalah 18.10 (Cosmic Cuttlefish) sementara untuk versi LTS adalah 18.04 (Bionic Beaver), yang mendapat tambahan jangka waktu dukungan hingga 10 tahun, tidak seperti versi LTS lain yang mendapat dukungan hingga lima tahun saja. 
+				</p>
+					<br>
+				<p>
+					Nama Ubuntu berasal dari filosofi dari Afrika Selatan yang berarti "kemanusiaan kepada sesama" Proyek Ubuntu resmi disponsori oleh Canonical Ltd. yang merupakan sebuah perusahaan yang dimiliki oleh pengusaha Afrika Selatan Mark Shuttleworth. Tujuan dari distribusi Linux Ubuntu adalah membawa semangat yang terkandung di dalam filosofi Ubuntu ke dalam dunia perangkat lunak. Ubuntu adalah sistem operasi lengkap berbasis Linux, tersedia secara bebas, dan mempunyai dukungan baik yang berasal dari komunitas maupun tenaga ahli profesional. 
+				</p>
+					<br>
+			<h3>II. Alat dan Bahan</h3>
+				<ol>
+					<li>1 Unit PC</li>
+					<li>CD Boot Ubuntu</li>
+				</ol>
+					<br>
+			<h3>III. Langkah Kerja</h3>
+				<ol>
+					<li>Masukkan CD kedalam PC</li>
+						<br>
+					<li>Atur Boot utama menjadi ke CD</li>
+						<br>
+					<li>Tunggu proses Loading berjalan
+						<p><img class="gambar" src="img/1.png"></p>
+					</li>
+						<br>
+					<li>Setelah selesai, ada 2 pilihan
+					<ul>
+						<li>Try Ubuntu
+							<p>Untuk mencoba Ubuntu tanpa menginstall yang diproses dalam CD Boot Ubuntu</p>
+						</li>
+						<li>Install Ubuntu
+							<p>Untuk menginstall Ubuntu</p>
+						</li>
+					</ul>
+						<p>yang kita pilih adalah <span>Install Ubuntu</span></p>
+						<p><img class="gambar" src="img/2.png"></img></p>
+					</li>
+						<br>
+					<li>Biarkan pengaturan Keyboard secara Default
+						<p><img class="gambar" src="img/3.png"></img></p>
+					</li>
+						<br>
+					<li>Setelah itu ada pilihan
+						<ul>
+							<li><span>Normal Installation</span>: Untuk menginstall semua software pendukung yang ada seperti, Web browser, Games, Offices Software dan Media Players</li>
+							<li><span>Minimal Installation</span>: Untuk menginstall software yang minim seperti, Web browser dan Ultiliti yang Basic</li>
+							<li><span>Download updates while installing ubuntu</span>: Maksudnya adalah pada saat kita menginstall Ubuntu akan mendowload Software-software yang terupdate didalam Repository-nya (Memerlukan koneksi internet)</li>
+							<li><span>Install third-party software</span>: Mirip seperti Normal Installation, tapi dengan tambahan Driver-driver yang lebih kompleks</li>
+						</ul>
+						<p>Pilihlah sesuai keinginan</p>
+						<p><img class="gambar" src="img/4.png"></img></p>
+					</li>
+						<br>
+					<li>Setelah proses pemilihan Instalasi selesai, ada pilihan lagi
+						<ul>
+							<li><span>Erase disk and install Ubuntu</span>: Berarti kita memformat semua data yang ada pada PC termasuk Sistem Operasi yang ada akan dihapus dan akan diinstall Ubuntu</li>
+							<li><span>Something else</span>: Berarti kita memanejemen sendiri peritsi-paritisi yang akan kita installkan Ubuntu sesuai keinginan kita, pilihan ini juga berlaku jika ingin <span>Dual Boot</span></li>
+						</ul>
+						<p>Yang kita pilih adalam Somethin Else</p>
+						<p><img class="gambar" src="img/5.png"></img></p>
+					</li>
+						<br>
+					<li>Tampilannya akan seperti ini
+						<p><img class="gambar" src="img/6.png"></img></p>
+					</li>
+						<br>
+					<li>Setelah itu tambah partisi baru dengan menekan simbol <span>+</span>
+						<p><img class="gambar" src="img/7.png"></p>
+						<p>Partisi diatas untuk peruntukan Root bisa dilihat pada <span>Mount Point</span>nya, untuk sizenya optional minimal 10GB</p>
+						<p>Untuk mengenal <span>Mount Point</span> pada Linux dengan lebih dapat dilihat <a href="https://rdp77.blogspot.com/2019/04/mengenal-mount-point-pada-linux.html">disini</a>
+						</p>
+					</li>
+						<br>
+					<li>Setelah partisi Root sudah ditambahkan tambahkan paritisi lagi, yaitu <span>Swap</span>
+						<p><img class="gambar" src="img/8.png"></p>
+						<p>Atur sesuai gambar dengan size minimal <span>2 kali dari besar RAM</span></p>
+					</li>
+						<br>
+					<li>Tampilan akan seperti ini
+						<p><img class="gambar" src="img/9.png"></p>
+					</li>
+						<br>
+					<li>Jika ada peringatan setelah menekan tombol Continue, tekan saja tombol Continue lagi
+						<p><img class="gambar" src="img/10.png"></img></p>
+					</li>
+						<br>
+					<li>Pilih Zona Waktu
+						<p><img class="gambar" src="img/11.png"></img></p>
+					</li>
+						<br>
+					<li>Input Nama anda dan nama PC anda jangan lupa Password diisi juga
+						<p><img class="gambar" src="img/12.png"></img></p>
+					</li>
+						<br>
+					<li>Dan tunggu proses Install selesai
+						<p><img class="gambar" src="img/13.png"></img></p>
+					</li>
+						<br>
+					<li>Jika proses instalasi selesai, nanti ada Pop Up yang berisikan perintah untuk mer-Restart</li>
+						<br>
+					<li>Setelah Restart selesai dan diminta untuk mengeluarkan CD dilakukan, Ubuntu siap digunakan</li>
+				</ol>
+					<br>
+			<h3>IV. Hasil</h3>
+				<p>-</p>
+				<br>
+			<h3>V. Kesimpulan</h3>
+				<p>
+					Ubuntu merupakan salah satu distribusi Linux yang berbasis Debian dan didistribusikan sebagai perangkat lunak bebas.
+				</p>
+				<br>
+			<h3>VI. Referensi</h3>
+			<ul>
+				<li><a target="_blank" href="https://id.wikipedia.org/wiki/Ubuntu">https://id.wikipedia.org/wiki/Ubuntu</a></li>
+			</ul>
+		</div>
+		<div class="biodata">
+			<div class="logo"></div>
+			<p>Zukron Alviandy Rahmadhan</p>
+			<div class="listSosmed">
+				<ul>
+					<li class="youtube"><a target="_blank" href="http://bit.ly/zukron_youtube"><img src="../img/youtube-logo.png"></a></li>
+					<li class="github"><a target="_blank" href="http://bit.ly/zukron_github"><img src="../img/github-logo.png"></a></li>
+					<li class="facebook"><a target="_blank" href="http://bit.ly/zukron_facebook"><img src="../img/facebook-logo.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<a target="_blank" href="laporan-harian.jpg"><div class="laporan"><h3>Laporan Harian</h3>
+		</div></a>
+	</div>
+</body>
+</html>

@@ -1,4 +1,5 @@
 body {
+	height: 700px;
 	background-image: url(../img/bg.png);
 }
 
@@ -39,7 +40,7 @@ h2 {
 /* Body */
 .containerBody {
 	width: 900px;
-	height: 250px;
+	height: 430px;
 	margin: 20px auto 0 auto;
 	position: relative;
 	background-color: white;
