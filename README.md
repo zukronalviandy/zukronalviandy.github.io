@@ -36,3 +36,6 @@
 
 0.6.5
 -> Penambahan laporan 6
+
+0.6.6
+-> Penambahan laporan 8
